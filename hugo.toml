@@ -1,4 +1,44 @@
 baseURL = 'https://bensch98.github.io/'
 languageCode = 'en-us'
-title = 'My Blog'
+title = 'Embrace the AI'
 theme = 'PaperMod'
+
+[params]
+  description = 'Opinionated thoughts by Benedikt Scheffler'
+  author = 'Benedikt Scheffler'
+  defaultTheme = 'auto'
+  showReadingTime = true
+  showShareButtons = true
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+
+  showToc = true
+  TocOpen = true
+
+  [params.profileMode]
+    enabled = true
+    title = 'Benedikt Scheffler'
+    subtitle = 'Opinionated thoughts on AI and beyond.'
+    imageUrl = '/images/profile.jpeg'
+    imageTitle = 'Benedikt Scheffler'
+    imageWidth = 150
+    imageHeight = 150
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/bensch98'
+
+  [[params.socialIcons]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/benedikt-scheffler/'
+
+[menu]
+  [[menu.main]]
+    name = 'Posts'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    name = 'Tags'
+    url = '/tags/'
+    weight = 20
